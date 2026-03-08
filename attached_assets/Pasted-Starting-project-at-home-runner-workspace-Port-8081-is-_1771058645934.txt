@@ -1,0 +1,34 @@
+Starting project at /home/runner/workspace
+› Port 8081 is being used by another process
+✔ Use port 8082 instead? … yes
+Error: Cannot find module 'metro/src/lib/TerminalReporter'
+Require stack:
+- /home/runner/workspace/node_modules/@expo/cli/build/src/start/server/metro/TerminalReporter.js
+- /home/runner/workspace/node_modules/@expo/cli/build/src/start/server/metro/MetroTerminalReporter.js
+- /home/runner/workspace/node_modules/@expo/cli/build/src/start/server/metro/instantiateMetro.js
+- /home/runner/workspace/node_modules/@expo/cli/build/src/start/server/metro/MetroBundlerDevServer.js
+- /home/runner/workspace/node_modules/@expo/cli/build/src/start/server/DevServerManager.js
+- /home/runner/workspace/node_modules/@expo/cli/build/src/start/startAsync.js
+- /home/runner/workspace/node_modules/@expo/cli/build/src/start/index.js
+- /home/runner/workspace/node_modules/@expo/cli/build/bin/cli
+- /home/runner/workspace/node_modules/expo/bin/cli
+Error: Cannot find module 'metro/src/lib/TerminalReporter'
+Require stack:
+- /home/runner/workspace/node_modules/@expo/cli/build/src/start/server/metro/TerminalReporter.js
+- /home/runner/workspace/node_modules/@expo/cli/build/src/start/server/metro/MetroTerminalReporter.js
+- /home/runner/workspace/node_modules/@expo/cli/build/src/start/server/metro/instantiateMetro.js
+- /home/runner/workspace/node_modules/@expo/cli/build/src/start/server/metro/MetroBundlerDevServer.js
+- /home/runner/workspace/node_modules/@expo/cli/build/src/start/server/DevServerManager.js
+- /home/runner/workspace/node_modules/@expo/cli/build/src/start/startAsync.js
+- /home/runner/workspace/node_modules/@expo/cli/build/src/start/index.js
+- /home/runner/workspace/node_modules/@expo/cli/build/bin/cli
+- /home/runner/workspace/node_modules/expo/bin/cli
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at UpstreamTerminalReporter (/home/runner/workspace/node_modules/@expo/cli/build/src/start/server/metro/TerminalReporter.js:26:55)
+    at Object.<anonymous> (/home/runner/workspace/node_modules/@expo/cli/src/start/server/metro/TerminalReporter.ts:45:27)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)

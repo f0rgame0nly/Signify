@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "SignBridge",
+    "slug": "signbridge",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": false,
+    "splash": {
+      "backgroundColor": "#1a1a2e"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "SignBridge needs camera access to detect sign language gestures",
+        "NSMicrophoneUsageDescription": "SignBridge needs microphone access for voice-to-sign translation"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#1a1a2e"
+      },
+      "permissions": ["CAMERA", "RECORD_AUDIO"]
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "sdkVersion": "54.0.0",
+    "scheme": "signbridge",
+    "entryPoint": "./index.js"
+  }
+}
